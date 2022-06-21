@@ -1,5 +1,5 @@
 import React from 'react'
-import meImg from '../images/fabio2.jpeg'
+import meImg from '../images/fabio2.png'
 import {useNavigate, Link} from 'react-router-dom';
 
 const Menu = () => {

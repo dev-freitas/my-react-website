@@ -1,5 +1,5 @@
 import React from 'react'
-import meImg from '../images/fabio-mountain.jpeg'
+import meImg from '../images/fabio-mountain.png'
 import { FaCss3Alt, FaHtml5, FaSass, FaReact, FaPython, FaBootstrap, FaFigma, FaDatabase } from 'react-icons/fa'
 import { SiJavascript, SiFirebase,  } from 'react-icons/si'
 
