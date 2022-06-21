@@ -12,8 +12,8 @@ const Contact = () => {
         <div className="contact">
             <div className="contact-list">
                <a href="tel:+07824567397"><h1 className="lg-heading contact-item"><FaPhoneAlt /><span className="text-secondary"> 07824 567 397</span></h1></a> 
-               <a href="mailto:dev@websetbusines.com"><h1 className="lg-heading contact-item"><FaEnvelope /><span className="text-secondary"> dev@websetbusines.com</span></h1></a> 
-               <a href="www.websetbusiness.com"><h1 className="lg-heading contact-item"><FaGlobe /><span className="text-secondary"> www.websetbusiness.com</span></h1></a> 
+               <a href="mailto:fdfreitas@gmail.com"><h1 className="lg-heading contact-item"><FaEnvelope /><span className="text-secondary"> fdfreitas@gmail.com</span></h1></a> 
+               <a href="https://github.com/dev-freitas"><h1 className="lg-heading contact-item"><FaGlobe /><span className="text-secondary"> https://github.com/dev-freitas</span></h1></a> 
             </div>
         </div>
 

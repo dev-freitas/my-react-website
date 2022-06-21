@@ -26,19 +26,19 @@ const Portfolio = () => {
 
             <div className="item">
             <a href="https://dev-freitas.github.io/webset/">
-                    <img src={webset} alt="Social card" />
+                    <img src={webset} alt="Webset" />
                 </a>
             </div>
 
             <div className="item">
             <a href="https://dev-freitas.github.io/Bath-Spa-Clone/">
-                    <img src={githubfinder} alt="Social card" />
+                    <img src={bathSpa} alt="bath spa clone" />
                 </a>
             </div>
 
             <div className="item">
             <a href="https://dev-freitas.github.io/Github-User-Finder/">
-                    <img src={increment} alt="Social card" />
+                    <img src={githubfinder} alt="github user" />
                 </a>
             </div>
 
@@ -48,8 +48,8 @@ const Portfolio = () => {
                 </a>
             </div>
             <div class="item">
-            <a href="https://dev-freitas.github.io/Bath-Spa-Clone/">
-                    <img src={bathSpa} alt="Bath spa" />
+            <a href="https://dev-freitas.github.io/increment-game/">
+                    <img src={increment} alt="increment game" />
                 </a>
             </div>
 
