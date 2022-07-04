@@ -4,14 +4,13 @@ import Menu from './components/Menu';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
-import Portfolio from './pages/Portfolio';
-import background from './images/background1.jpg'
+import Portfolio from './pages/Portfolio'
 import Chat from './components/Chat';
 
 
 function App() {
   return (
-    <div style={{ backgroundImage:`url(${background})`,backgroundSize:"cover",backgroundAttachment: "fixed", height: "100%", margin: "0" }}>
+    <div>
     <BrowserRouter>
       <Menu />
       <Routes>
@@ -20,7 +19,13 @@ function App() {
         <Route path='/contact' element = {<Contact />}/>
         <Route path='/portfolio' element = {<Portfolio />}/>
       </Routes>
+      <iframe src="https://free.timeanddate.com/clock/i8e7nerk/n1328/fn14/fs16/fcfff/tct/pct/fti/tt0/th2" frameborder="0" width="349" height="22" allowtransparency="true"></iframe>
+      {/* <Home />
+      <About />
+      <Portfolio />
+      <Contact /> */}
       <Chat />
+
     </BrowserRouter>
     
     </div>

@@ -35,6 +35,35 @@ a {
     color: set-text-color($primary-color);
 }
 
+.home-img {
+    position: absolute;
+    width: 123px;
+    height: 100vh;
+    right: 45%;
+    top: 0px;
+}
+.home-img2 {
+    position: absolute;
+    width: 123px;
+    height: 100vh;
+    right: 30%;
+    top: 0px;
+}
+.home-img3 {
+    position: absolute;
+    width: 123px;
+    height: 100vh;
+    right: 0;
+    top: 0px;
+}
+.home-img4 {
+    position: absolute;
+    width: 123px;
+    height: 100vh;
+    right: 15%;
+    top: 0px;
+}
+
 header {
     position: fixed;
     z-index: 2;
@@ -122,7 +151,6 @@ main {
 
     p {
         font-size: 20px;
-        font-weight: bold;
     }
 }
 
@@ -151,19 +179,21 @@ main {
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 0.7rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
 
 
 
     img {
         width: 100%;
-        border: 3px #fff solid;
+        border: 3px solid $secondary-color;
+        opacity: .9;
+        border-radius: 15px;
 
         &:hover {
-            opacity: 0.5;
-            border-color: $secondary-color;
-            @include easeOut
+            opacity: 1;
+            box-shadow: 0px 0px 20px 5px #fcfcfc;
+            transition: all .3s ease-out;
         }
         
     }

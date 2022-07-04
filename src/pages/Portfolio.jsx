@@ -2,8 +2,8 @@ import React from 'react'
 import thatsMe from '../images/socialcard.png'
 import webset from '../images/webset.png'
 import githubfinder from '../images/githubfinder.png'
-import increment from '../images/increment.png'
-import agency from '../images/agency.png'
+// import increment from '../images/increment.png'
+// import agency from '../images/agency.png'
 import bathSpa from '../images/bathClone.png'
 
 
@@ -42,7 +42,7 @@ const Portfolio = () => {
                 </a>
             </div>
 
-            <div class="item">
+            {/* <div class="item">
             <a href="https://dev-freitas.github.io/aulascr/">
                     <img src={agency} alt="agency" />
                 </a>
@@ -51,7 +51,7 @@ const Portfolio = () => {
             <a href="https://dev-freitas.github.io/increment-game/">
                     <img src={increment} alt="increment game" />
                 </a>
-            </div>
+            </div> */}
 
 
 

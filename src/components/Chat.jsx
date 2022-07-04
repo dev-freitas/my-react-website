@@ -27,7 +27,7 @@ const Chat = () => {
 
     
     <div className={!showChat?'chat chat-not-live': 'chat chat-live'}>
-        <h2>Message me</h2>
+        <h2>#getInTouchNow</h2>
         <form onSubmit={handleEmail}>
             <div className="input-layout">
             <input 
@@ -63,7 +63,7 @@ const Chat = () => {
             placeholder='Your message' 
             // onChange={onChange} 
             cols="30" 
-            rows="12"></textarea>
+            rows="6"></textarea>
             </div>
             <button>Send</button>
         </form>

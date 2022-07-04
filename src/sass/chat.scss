@@ -1,13 +1,13 @@
 .chat{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     box-sizing: border-box;
     position: fixed;
-    width: 375px;
-    height: 520px;
+    width: 100vw;
+    height: 100vh;
     bottom: 0px;
-    background: linear-gradient(109.46deg, rgba(201, 201, 201, 0.8) 1.57%, $primary-color 100%);
-    backdrop-filter: blur(60px);
-    border-radius: 18px;
+    background: $primary-color;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: stretch;
     flex-wrap: wrap;
@@ -19,36 +19,51 @@
     }
 
     h2 {
-        height: 40px;
+        
+        text-align: center;
+        height: 20px;
         font-style: normal;
-        font-weight: 400;
-        font-size: 30px;
+        font-weight: 300;
+        font-size: 3vw;
         line-height: 39px;
     }
 
     form {
-        height: 400px;
+        height: 80vh;
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
 
         
 
         input, textarea {
+            margin-top: 1vw;
+            font-size: 2vw;
             width: 300px;
-            background: linear-gradient(109.46deg, white 1.57%,white 50%);
-            border-radius: 7px;
-            line-height: 20px;
+            line-height: 2vw;
+            border-top-style: hidden;
+            border-right-style: hidden;
+            border-left-style: hidden;
+            border-bottom-style: groove;
+            color: set-text-color($primary-color);
+            background-color: $primary-color;
+
             &:hover {
                 opacity: $background-opacity;
             }
         }
 
         button {
-            width: 300px;
-            background: $secondary-color;
+            margin-top: 2vh;
+            width: 10vw;
+            background: $primary-color;
+            border: $secondary-color 3px solid;
+            color: $secondary-color;
+            font-size: 1.5vw;
+            font-weight:300;
             border-radius: 7px;
-            line-height: 30px;
+            line-height: 5vh;
             &:hover {
                 opacity: $background-opacity;
             }
@@ -57,21 +72,27 @@
     }
 
     .chat-not-live {
-        right: -1000px;
-        transition: .9s;
+        right: 4000px;
+        transition: 1.5s;
     }
 
     .chat-live {
         right: 0px;
-        transition: .9s;
-        z-index: 1;
+        transition: 1.5s;
+        z-index: 3;
+
     }
 
     .chat-icon {
         position: fixed;
+        z-index: 3;
         top: 25px;
         right: 70px;
         width: 50px;
         font-size: 35px;
-        color: set-text-color($primary-color)
+        color: set-text-color($primary-color);
+        &:hover {
+            color: $secondary-color;
+            @include easeOut()
+        }
     }
