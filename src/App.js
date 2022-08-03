@@ -19,7 +19,7 @@ function App() {
         <Route path='/contact' element = {<Contact />}/>
         <Route path='/portfolio' element = {<Portfolio />}/>
       </Routes>
-      <iframe src="https://free.timeanddate.com/clock/i8e7nerk/n1328/fn14/fs16/fcfff/tct/pct/fti/tt0/th2" frameborder="0" width="349" height="22" allowtransparency="true"></iframe>
+      <iframe title='time' src="https://free.timeanddate.com/clock/i8e7nerk/n1328/fn14/fs16/fcfff/tct/pct/fti/tt0/th2" frameborder="0" width="349" height="22" allowtransparency="true"></iframe>
       {/* <Home />
       <About />
       <Portfolio />

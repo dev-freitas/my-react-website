@@ -2,9 +2,13 @@ import React from 'react'
 import thatsMe from '../images/socialcard.png'
 import webset from '../images/webset.png'
 import githubfinder from '../images/githubfinder.png'
-// import increment from '../images/increment.png'
-// import agency from '../images/agency.png'
 import bathSpa from '../images/bathClone.png'
+import dashboard from '../images/dashboard.png'
+import contactApp from '../images/contact.png'
+import remindMe from '../images/remind.png'
+import weather from '../images/weather.png'
+import miracles from '../images/miracles.png'
+
 
 
 
@@ -19,8 +23,23 @@ const Portfolio = () => {
         <div className="projects">
 
             <div className="item">
-            <a href="https://dev155.d299p753gg2dmk.amplifyapp.com/">
-                    <img src={thatsMe} alt="Social card" />
+            <a href="https://main.d2xezl3c8ldauu.amplifyapp.com/">
+                    <img src={dashboard} alt="Social card" />
+                </a>
+            </div>
+            <div className="item">
+            <a href="https://main.d1pymykytmobew.amplifyapp.com/">
+                    <img src={contactApp} alt="Social card" />
+                </a>
+            </div>
+            <div className="item">
+            <a href="https://dev-freitas.github.io/Remind-me-app/">
+                    <img src={remindMe} alt="Social card" />
+                </a>
+            </div>
+            <div className="item">
+            <a href="https://main.ds90bnhezy2ij.amplifyapp.com/">
+                    <img src={miracles} alt="Social card" />
                 </a>
             </div>
 
@@ -41,20 +60,18 @@ const Portfolio = () => {
                     <img src={githubfinder} alt="github user" />
                 </a>
             </div>
-
-            {/* <div class="item">
-            <a href="https://dev-freitas.github.io/aulascr/">
-                    <img src={agency} alt="agency" />
+            
+            <div className="item">
+            <a href="https://dev-freitas.github.io/weather-app/">
+                    <img src={weather} alt="github user" />
                 </a>
             </div>
-            <div class="item">
-            <a href="https://dev-freitas.github.io/increment-game/">
-                    <img src={increment} alt="increment game" />
+
+            <div className="item">
+            <a href="https://dev155.d299p753gg2dmk.amplifyapp.com/">
+                    <img src={thatsMe} alt="Social card" />
                 </a>
-            </div> */}
-
-
-
+            </div>
         </div>
 
     </main>
